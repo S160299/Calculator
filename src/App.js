@@ -15,7 +15,7 @@ const App = ( ) => {
           <center>
                <Input.Group compact><Input style={{ width: 'calc(30% - 50px)' }} defaultValue="0" type="text" value={input} name="input" onChange={handler}></Input>
                </Input.Group>
-               <Button type="primary" onClick={() => setResult(eval(input))}>Result</Button><br></br><br></br><Button>{result}</Button>
+               <Button type="primary" onClick={() => setResult(no-eval(input))}>Result</Button><br></br><br></br><Button>{result}</Button>
                <br></br><br></br>
                <Button type="primary" shape="circle" onClick={( ) =>setInput(input+'1')}>1</Button>
                <Button type="primary" shape="circle" onClick={( ) =>setInput(input+'2')}>2</Button>
